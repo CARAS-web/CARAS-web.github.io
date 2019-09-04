@@ -143,7 +143,7 @@ ul {
       text-transform: uppercase;
       font-weight: 700; }
     .header_area .navbar .navbar-brand {
-      padding-top: 0; }
+      padding-top: 10px; }
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
@@ -2766,7 +2766,7 @@ h6 {
 .main_btn_team {
   display: inline-block;
   background: rgba(252,177,28);
-  padding: 0px 65px;
+  padding: 0px 30px;
   color: rgba(255,255,255);
   font-family: "Roboto", sans-serif;
   font-size: 13px;
