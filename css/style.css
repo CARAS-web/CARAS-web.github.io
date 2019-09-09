@@ -121,7 +121,82 @@ ul {
 /* End Main Title Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
-/*----------------------------------------------------*/
+/*+++++++++++++++++++++++ w3 NAV BAR*+++++++++++++++++++/
+
+/* Navbar container */
+.w3navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.w3navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.w3dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.w3dropdown .w3dropbtn {
+  font: 500 12px/80px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #202e31;
+  padding: 0px;
+  display: inline-block;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin-right: 45px; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.w3navbar a:hover, .w3dropdown:hover .w3dropbtn {
+  color: #e22104;;
+}
+
+/* Dropdown content (hidden by default) */
+.w3dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.w3dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.w3dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.w3dropdown:hover .w3dropdown-content {
+  display: block;
+}
+/*+++++++++++++++++++ END OF W3 NAV BAR++++++++++++++++++*/
+/*----------------------Header area------------------*/
 .header_area {
   position: absolute;
   width: 100%;
@@ -145,14 +220,16 @@ ul {
     .header_area .navbar .navbar-brand {
       padding-top: 10px; }
     .header_area .navbar .nav .nav-item {
-      margin-right: 45px; }
+      margin-right: 45px;
+      padding: 0 }
+
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/80px "Roboto", sans-serif;
         text-transform: uppercase;
         color: #202e31;
         padding: 0px;
         display: inline-block;
-        font-size: 14px; }
+        font-size: 14px;}
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
@@ -223,7 +300,7 @@ ul {
       .header_area .navbar .nav .nav-item:last-child {
         margin-right: 0px; }
   .header_area + section, .header_area + row, .header_area + div {
-    margin-top: 122px; }
+    margin-top: 80px; }
   .header_area.navbar_fixed .main_menu {
     position: fixed;
     width: 100%;
@@ -1491,12 +1568,12 @@ ul {
     line-height: 26px; }
 
   .people-content li {
-    font-size: 18px;
+    font-size: 15px;
     font-family: "Roboto", sans-serif;
     color: #888888;
     margin: 20px 0px;
     /*margin-bottom: 50px;*/
-    line-height: 26px; }
+    line-height: 8px; }
 
 
   .people-content .number-wrapper {
@@ -3165,14 +3242,17 @@ h6 {
 ============================================================================================ */
 .service-area {
   /*reomved to use bg image background: #f7f7f7; */
-  background: url(../img/background/bg1.jpg);
+  /*background: url(../img/background/bg1.jpg);*/
 }
   .service-area .single-service {
     border: 1px solid transparent;
     background: #fff;
     text-align: center;
     padding: 40px 30px 25px;
-    transition: all 300ms linear 0s; }
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
     .service-area .single-service:hover {
       border: 1px solid #e22104; }
     .service-area .single-service .service-icon {
