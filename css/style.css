@@ -501,6 +501,52 @@ ul {
       .home_banner_area .banner_inner .banner_content .main_btn {
         margin-top: 35px; }
 
+        /*cost advisory*/
+        .home_banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 770px; }
+  .home_banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 770px; }
+    .home_banner_area .banner_inner .overlay {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner/home-banner1.jpg) no-repeat scroll center center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100%;
+      bottom: 0;
+      z-index: -1; }
+    .home_banner_area .banner_inner .banner_content {
+      color: #fff; }
+      .home_banner_area .banner_inner .banner_content span {
+        font-size: 24px;
+        color: #fff;
+        font-family: "Heebo", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+        display: inline-block;
+        position: relative; }
+        .home_banner_area .banner_inner .banner_content span:after {
+          content: '';
+          position: absolute;
+          left: 50%;
+          bottom: -16px;
+          transform: translateX(-50%);
+          width: 100px;
+          height: 1px;
+          background: #fff; }
+      .home_banner_area .banner_inner .banner_content h3 {
+        font-size: 60px;
+        font-family: "Heebo", sans-serif;
+        font-weight: 500; }
+      .home_banner_area .banner_inner .banner_content .main_btn {
+        margin-top: 35px; }
+        /*cost advisory end*/
+
 .blog_banner {
   min-height: 660px;
   position: relative;
@@ -1573,7 +1619,7 @@ ul {
     color: #888888;
     margin: 20px 0px;
     /*margin-bottom: 50px;*/
-    line-height: 8px; }
+    line-height: 15px; }
 
 
   .people-content .number-wrapper {
@@ -3241,9 +3287,32 @@ h6 {
 /* Service  Area css
 ============================================================================================ */
 .service-area {
+  padding-top: 80px;
+  padding-bottom: 80px;
   /*reomved to use bg image background: #f7f7f7; */
   /*background: url(../img/background/bg1.jpg);*/
 }
+/*Used for profile pages*/
+.single-service {
+    border: 1px solid transparent;
+    background: #fff;
+    text-align: center;
+    padding: 40px 30px 25px;
+    transition: all 300ms linear 0s;
+    /*box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    }
+.single-service li {
+    list-style-type: circle;
+    text-align: left;
+    font-size: 15px; }
+
+    .single-service h5 {
+    font-size: 20px;
+      font-weight: 500;
+      color: #202e31;
+      margin-bottom: 10px}
+/*------------*/
+
   .service-area .single-service {
     border: 1px solid transparent;
     background: #fff;
@@ -3281,6 +3350,11 @@ h6 {
       img {padding-bottom:  20px;}
     .service-area .single-service .service-content p {
       line-height: 27px; }
+
+    .service-area .single-service .service-content ul {
+    list-style-type: circle;
+    text-align: left; }
+
 
 .service-page.service-area {
   background: #fff; }
