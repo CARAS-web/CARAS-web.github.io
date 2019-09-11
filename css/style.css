@@ -3292,6 +3292,23 @@ h6 {
   /*reomved to use bg image background: #f7f7f7; */
   /*background: url(../img/background/bg1.jpg);*/
 }
+
+/*used for sectors*/
+.single-service-sector {
+  border: 1px solid transparent;
+    background: #fff;
+    text-align: center;
+    padding: 0px;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    }
+    .single-service-sector p {
+    padding: 10px; 
+    }
+    .single-service-sector:hover {
+      border: 1px solid #e22104; }
+}
 /*Used for profile pages*/
 .single-service {
     border: 1px solid transparent;
@@ -3312,6 +3329,135 @@ h6 {
       color: #202e31;
       margin-bottom: 10px}
 /*------------*/
+/*Used for individual services*/
+
+.service-area .single-service-planning {
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 40px 30px 25px;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    box-shadow: 0 1px 8px 0 rgba(252,177,28, 0.8), 0 6px 20px 0 rgba(13,67,88, 0.8); }
+
+    .service-area .single-service-planning:hover {
+      border: 1px solid #e22104; }
+    .service-area .single-service-planning .service-icon {
+      width: 170px;
+      height: 95px;
+      text-align: center;
+      margin: 0 auto 28px;
+      position: relative;
+      z-index: 1; }
+      .service-area .single-service-planning .service-icon:after {
+        content: '';
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        background: #fcefed;
+        border-radius: 100%;
+        left: 27px;
+        z-index: -1;
+        top: 14px; }
+    .service-area .single-service-planning .service-content h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #202e31;
+      margin-bottom: 10px;  
+       }
+      img {padding-bottom:  20px;}
+    .service-area .single-service-planning .service-content p {
+      line-height: 27px; }
+
+    .service-area .single-service-planning .service-content ul {
+    list-style-type: circle;
+    text-align: left; }
+
+    /*procurement*/
+    .service-area .single-service-procurement {
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 40px 30px 25px;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    box-shadow: 0 1px 8px 0 rgba(133,122,58, 0.8), 0 6px 20px 0 rgba(13,67,88, 0.8); }
+
+    .service-area .single-service-procurement:hover {
+      border: 1px solid #e22104; }
+    .service-area .single-service-procurement .service-icon {
+      width: 170px;
+      height: 95px;
+      text-align: center;
+      margin: 0 auto 28px;
+      position: relative;
+      z-index: 1; }
+      .service-area .single-service-procurement .service-icon:after {
+        content: '';
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        background: #fcefed;
+        border-radius: 100%;
+        left: 27px;
+        z-index: -1;
+        top: 14px; }
+    .service-area .single-service-procurement .service-content h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #202e31;
+      margin-bottom: 10px;  
+       }
+      img {padding-bottom:  20px;}
+    .service-area .single-service-procurement .service-content p {
+      line-height: 27px; }
+
+    .service-area .single-service-procurement .service-content ul {
+    list-style-type: circle;
+    text-align: left; }
+    /*cosntruction*/
+
+    .service-area .single-service-construction{
+    border: 1px solid transparent;
+    background: #fff;
+    text-align: center;
+    padding: 40px 30px 25px;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    box-shadow: 0 1px 8px 0 rgba(13,67,88, 0.8), 0 6px 20px 0 rgba(13,67,88, 0.8); }
+
+    .service-area .single-service-construction:hover {
+      border: 1px solid #e22104; }
+    .service-area .single-service-construction .service-icon {
+      width: 170px;
+      height: 95px;
+      text-align: center;
+      margin: 0 auto 28px;
+      position: relative;
+      z-index: 1; }
+      .service-area .single-service-construction .service-icon:after {
+        content: '';
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        background: #fcefed;
+        border-radius: 100%;
+        left: 27px;
+        z-index: -1;
+        top: 14px; }
+    .service-area .single-service-construction .service-content h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #202e31;
+      margin-bottom: 10px;  
+       }
+      img {padding-bottom:  20px;}
+    .service-area .single-service-construction .service-content p {
+      line-height: 27px; }
+
+    .service-area .single-service-construction .service-content ul {
+    list-style-type: circle;
+    text-align: left; }
+
+/*--------------------*/
 
   .service-area .single-service {
     border: 1px solid transparent;
