@@ -475,6 +475,28 @@ ul {
       height: 100%;
       bottom: 0;
       z-index: -1; }
+      /*-----contaminatedLand------*/
+      .home_banner_area .banner_inner .overlay_contaminatedLand {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner/contaminatedLand.jpg) no-repeat scroll center center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100%;
+      bottom: 0;
+      z-index: -1; }
+      /*-----------*/
+      /*-----infrastructure-------*/
+      .home_banner_area .banner_inner .overlay_infrastructure {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/project/3.jpg) no-repeat scroll center center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100%;
+      bottom: 0;
+      z-index: -1; }
+      /*------------------*/
     .home_banner_area .banner_inner .banner_content {
       color: #fff; }
       .home_banner_area .banner_inner .banner_content span {
@@ -501,8 +523,8 @@ ul {
       .home_banner_area .banner_inner .banner_content .main_btn {
         margin-top: 35px; }
 
-        /*cost advisory*/
-        .home_banner_area {
+        /*-------------------cost advisory----------------*/
+        /*.home_banner_area {
   position: relative;
   z-index: 1;
   min-height: 770px; }
@@ -544,8 +566,8 @@ ul {
         font-family: "Heebo", sans-serif;
         font-weight: 500; }
       .home_banner_area .banner_inner .banner_content .main_btn {
-        margin-top: 35px; }
-        /*cost advisory end*/
+        margin-top: 35px; }*/
+        /*------------------cost advisory end-------------------*/
 
 .blog_banner {
   min-height: 660px;
@@ -1588,12 +1610,12 @@ ul {
   background-size: cover;
   background-position: center;
   padding-top: 65px; }
-  .people-area-2 {
+/*  .people-area-2 {
   background: #f7f7f7;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 65px; }
+  padding-top: 65px; }*/
 
 .people-content {
   padding-top: 0px; }
@@ -3309,14 +3331,15 @@ h6 {
     .single-service-sector:hover {
       border: 1px solid #e22104; }
 }
-/*Used for profile pages*/
-.single-service {
+/*------------*/
+/*Used for individual profile pages*/
+ .service-area .single-service-profile {
     border: 1px solid transparent;
     background: #fff;
     text-align: center;
     padding: 40px 30px 25px;
     transition: all 300ms linear 0s;
-    /*box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     }
 .single-service li {
     list-style-type: circle;
@@ -3329,7 +3352,7 @@ h6 {
       color: #202e31;
       margin-bottom: 10px}
 /*------------*/
-/*Used for individual services*/
+/*Used for individual services PLANING*/
 
 .service-area .single-service-planning {
     border: 1px solid transparent;
@@ -3371,8 +3394,8 @@ h6 {
     .service-area .single-service-planning .service-content ul {
     list-style-type: circle;
     text-align: left; }
-
-    /*procurement*/
+/*------------*/
+    /*Used for individual services: STAGE PROCUREMENT*/
     .service-area .single-service-procurement {
     border: 1px solid transparent;
     text-align: center;
@@ -3413,7 +3436,7 @@ h6 {
     .service-area .single-service-procurement .service-content ul {
     list-style-type: circle;
     text-align: left; }
-    /*cosntruction*/
+    /*Used for individual services: STAGE CONSTRUCTION*/
 
     .service-area .single-service-construction{
     border: 1px solid transparent;
@@ -3458,6 +3481,49 @@ h6 {
     text-align: left; }
 
 /*--------------------*/
+/*------Used for Indiviudal profile pages------*/
+.service-area .single-service-profiles {
+    border: 1px solid rgb(252,177,28);
+    background: #fff;
+    text-align: center;
+    padding: 30px;
+    transition: all 300ms linear 0s;
+    /*box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+
+    .service-area .single-service-profiles .service-icon {
+      width: 170px;
+      height: 95px;
+      text-align: center;
+      margin: 0 auto 28px;
+      position: relative;
+      z-index: 1; }
+      .service-area .single-service-profiles .service-icon:after {
+        content: '';
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        background: #fcefed;
+        border-radius: 100%;
+        left: 27px;
+        z-index: -1;
+        top: 14px; }
+    .service-area .single-service-profiles .service-content h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #202e31;
+      margin-bottom: 10px;  
+       }
+      img {padding-bottom:  20px;}
+    .service-area .single-service-profiles .service-content p {
+      line-height: 27px; }
+
+    .service-area .single-service-profiles .service-content ul {
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 15px; }
+
+    /*----------end------*/
 
   .service-area .single-service {
     border: 1px solid transparent;
